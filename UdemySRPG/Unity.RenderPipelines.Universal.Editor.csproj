@@ -65,8 +65,8 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Editor\Converter\Converters\RenderSettingsConverter.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Editor\2D\Converter\URP2DConverterUtility.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Editor\2D\ShapeEditor\GUIFramework\GUIAction.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Editor\GlobalSettings\UniversalGlobalSettingsWindow.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Editor\2D\ShapeEditor\EditorTool\PathComponentEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Editor\GlobalSettings\UniversalGlobalSettingsWindow.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Editor\ShaderGUI\BaseShaderGUI.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Editor\2D\ShapeEditor\Shapes\ShapeExtensions.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Editor\AssetPostProcessors\AutodeskInteractiveMaterialImport.cs" />

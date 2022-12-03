@@ -36,7 +36,50 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\UI\ActionButtonUI.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Actions\SpinAction.cs" />
+     <Compile Include="Assets\Scripts\Unit\Unit.cs" />
+     <Compile Include="Assets\Scripts\Unit\SelectedUnitVisual.cs" />
+     <Compile Include="Assets\Scripts\Grid\GridTesting.cs" />
+     <Compile Include="Assets\Scripts\Grid\GridObject.cs" />
+     <Compile Include="Assets\Scripts\Actions\MoveAction.cs" />
+     <Compile Include="Assets\Scripts\LevelGrid.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\Scripts\Grid\GridManagerVisualSingle.cs" />
+     <Compile Include="Assets\Scripts\Grid\GridPosition.cs" />
+     <Compile Include="Assets\Scripts\Actions\BaseAction.cs" />
+     <Compile Include="Assets\Scripts\Grid\GridDebugObject.cs" />
+     <Compile Include="Assets\Scripts\Grid\GridManagerVisual.cs" />
+     <Compile Include="Assets\Scripts\Unit\UnitActionSystemUI.cs" />
+     <Compile Include="Assets\Scripts\MouseWorld.cs" />
+     <Compile Include="Assets\Scripts\Grid\GridManager.cs" />
+     <Compile Include="Assets\Scripts\Unit\UnitActionSystem.cs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\PolygonPrototype\Shaders\Prototype_Glass_Global.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\PolygonPrototype\Shaders\Prototype_Object.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\PolygonPrototype\Shaders\Prototype_Global.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\PolygonPrototype\Shaders\Prototype_Glass_Object.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
         <HintPath>I:\Unity\2021.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -769,6 +812,10 @@
       <Project>{354cc145-1461-bf64-e719-aa466a6dd712}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{99a46f82-49e2-c46f-ca19-c8c6e6e715fc}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
       <Project>{ad7343a0-4b2d-22b4-c094-4d38fcaeabbc}</Project>
       <Name>Unity.Services.Core.Analytics</Name>
@@ -780,6 +827,10 @@
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
       <Project>{8ed246be-44ac-6f3c-5fdc-76493ecd524b}</Project>
       <Name>Unity.RenderPipelines.Universal.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{9f271c3d-75af-9714-5d54-83cab5e3be6c}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
       <Project>{4c37d395-2920-3cb6-1609-acdc799c79f3}</Project>

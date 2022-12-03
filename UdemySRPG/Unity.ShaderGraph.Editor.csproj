@@ -160,8 +160,8 @@
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Data\Nodes\Artistic\Normal\NormalReconstructZNode.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Data\Graphs\AbstractShaderProperty.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Drawing\Controls\Texture3DControl.cs" />
-     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Importers\ShaderSubGraphImporterEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Data\Interfaces\IMayRequireTransform.cs" />
+     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Importers\ShaderSubGraphImporterEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Util\IndexSet.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Data\Nodes\Math\Advanced\ModuloNode.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Drawing\Views\Slots\UVSlotControlView.cs" />
@@ -565,9 +565,9 @@
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Drawing\Inspector\PropertyDrawers\GradientPropertyDrawer.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Drawing\MaterialEditor\ShaderGraphPropertyDrawers.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Drawing\Controls\TextureArrayControl.cs" />
-     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Drawing\Controls\ObjectControl.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Drawing\Colors\NoColors.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Drawing\Colors\ColorManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Drawing\Controls\ObjectControl.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Data\Attributes\BuiltinKeywordAttribute.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Generation\Collections\StructCollection.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Data\Nodes\Utility\Logic\NotNode.cs" />
@@ -677,8 +677,8 @@
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Drawing\Colors\UserColors.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Data\Legacy\AbstractMaterialNode0.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Drawing\Controls\EnumControl.cs" />
-     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Drawing\Views\GraphSubWindow.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Data\Nodes\Input\Basic\SliderNode.cs" />
+     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Drawing\Views\GraphSubWindow.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Data\Legacy\StickyNoteData0.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Data\Graphs\Texture2DInputMaterialSlot.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Editor\Data\Nodes\Utility\Logic\AndNode.cs" />
