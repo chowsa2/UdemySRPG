@@ -34,7 +34,10 @@ public class UnitActionSystemUI : MonoBehaviour
         }
 
         Unit selectedUnit = UnitActionSystem.Instance.GetSelectedUnit();
-
+        if (selectedUnit == null)
+        {
+            return;
+        }
         foreach (BaseAction baseAction in selectedUnit.GetBaseActions())
         {
             Transform actionButtonTransform = Instantiate(actionButtonPrefab, actionButtonContainerTransform);   // TODO to revisit for studying: actionbuttonUI as a script (search external variable with serialized field)

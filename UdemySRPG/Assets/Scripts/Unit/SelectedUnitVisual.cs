@@ -21,6 +21,11 @@ public class SelectedUnitVisual : MonoBehaviour
 
     private void UnitActionSystem_OnSelectedUnitChange(object sender, EventArgs empty)
     {
+        if (UnitActionSystem.Instance.GetSelectedUnit() == null)
+        {
+            meshRenderer.enabled = false;
+            return;
+        }
         if (UnitActionSystem.Instance.GetSelectedUnit() == unit)
         {
             meshRenderer.enabled = true;

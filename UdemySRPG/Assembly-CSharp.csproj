@@ -36,7 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\UI\ActionButtonUI.cs" />
+     <Compile Include="Assets\Scripts\UI\ActionButtonUI.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\Actions\SpinAction.cs" />
      <Compile Include="Assets\Scripts\Unit\Unit.cs" />

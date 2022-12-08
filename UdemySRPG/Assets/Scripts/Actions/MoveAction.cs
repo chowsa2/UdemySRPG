@@ -10,6 +10,9 @@ public class MoveAction : BaseAction
     [SerializeField] private Animator unitAnimator;
     private Action onActionComplete;
     private Vector3 targetPosition;
+
+    private bool isCanceled;
+
     protected override void Awake()
     {
         base.Awake();
@@ -19,7 +22,16 @@ public class MoveAction : BaseAction
 
     public void Update()
     {
+        if (isCanceled)
+        {
+            transform.position = targetPosition;
+            isCanceled = false;
+            isActive = false;
+            onActionComplete();
+            return;
+        }
         if (!isActive) { return; }
+
         Vector3 moveDirection = (targetPosition - transform.position).normalized;
         float stopDistance = .1f;
         if (Vector3.Distance(transform.position, targetPosition) > stopDistance)
@@ -46,6 +58,16 @@ public class MoveAction : BaseAction
         this.onActionComplete = onActionComplete;
         this.targetPosition = LevelGrid.Instance.GetWorldPosition(gridPosition);
         isActive = true;
+    }
+
+    public void CancelMovement(GridPosition gridPosition, Action onActionComplete)
+    {
+        this.onActionComplete = onActionComplete;
+        this.targetPosition = LevelGrid.Instance.GetWorldPosition(gridPosition);
+        Debug.Log("Cancel Command");
+        isCanceled = true;
+
+
     }
     public bool IsValidActionGridPosition(GridPosition gridPosition)
     {

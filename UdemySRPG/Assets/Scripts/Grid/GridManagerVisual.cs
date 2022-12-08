@@ -46,7 +46,12 @@ public class GridManagerVisual : MonoBehaviour
     }
     public void ShowValidGridPosition()
     {
+
         Unit selectedUnit = UnitActionSystem.Instance.GetSelectedUnit();
+        if (selectedUnit == null)
+        {
+            return;
+        }
         List<GridPosition> validGridPositionList = selectedUnit.GetMoveAction().GetValidActionGridPositionList();
 
         foreach (GridPosition gridPosition in validGridPositionList)
